@@ -14,4 +14,4 @@ CMD ["python", "sdvig.py"]
 7. Вставляем в строку следующую команду: sudo docker build -t lub_2_image .
 8. Запускаем контейнер: sudo docker run -it --name lub_2_container lub_2_image
 9. Приложение запустилось
-10. Когда приложение завершило свою работу, останавливаем контейнер: docker stop lub_2_container
+10. Когда приложение завершило свою работу, останавливаем контейнер: sudo docker stop lub_2_container
